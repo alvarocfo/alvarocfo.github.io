@@ -1,0 +1,45 @@
+:root
+{
+    --header-color: rgba(40, 54, 74, 0.87);
+    --header2-color: rgba(255, 255, 255, 0.8);
+    --shadows-color: rgba(43, 43, 43, 0.5);
+}
+
+header
+{
+    justify-content: space-between;
+    display: flex;
+    width: 1375px;
+    margin: 0 auto;
+}
+
+.informations
+{
+    width: 400px;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    background-color: var(--header-color);
+    box-shadow: 5px 5px 10px var(--shadows-color);
+    padding: 0 50px;
+    padding-bottom: 30px;
+}
+
+.experience
+{
+    width: 975px;
+    padding-left: 20px;
+    backdrop-filter: blur(10px);
+    background-color: var(--header2-color);
+    padding-bottom: 30px;
+}
+
+.displaylogos
+{
+    display: flex;
+    margin-top: 15px;
+}
+
+a
+{
+    text-decoration: none;
+}
