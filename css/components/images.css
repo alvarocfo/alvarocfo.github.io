@@ -2,8 +2,8 @@
 {
     border-radius: 50%;
     margin: 50px 0;
-    width: 370px;
-    height: 370px;
+    width: 310px;
+    height: 310px;
     box-shadow: 5px 5px 10px var(--shadows-color);
 }
 
@@ -20,7 +20,7 @@
 
 .logos
 {
-    width: 38px;
-    height: 38px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
 }

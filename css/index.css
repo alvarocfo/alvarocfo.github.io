@@ -9,13 +9,13 @@ header
 {
     justify-content: space-between;
     display: flex;
-    width: 1375px;
+    width: 1285px;
     margin: 0 auto;
 }
 
 .informations
 {
-    width: 400px;
+    width: 300px;
     z-index: 1;
     backdrop-filter: blur(10px);
     background-color: var(--header-color);
@@ -26,7 +26,7 @@ header
 
 .experience
 {
-    width: 975px;
+    width: 985px;
     padding-left: 20px;
     backdrop-filter: blur(10px);
     background-color: var(--header2-color);
