@@ -1,0 +1,42 @@
+.skills
+{
+    display: flex;
+    margin: 10px 0;
+    width: 350px;
+}
+
+.skills:nth-child(odd)
+{
+    margin-right: 50px;
+}
+
+.section-skills
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+progress
+{
+    -webkit-appearance: none;
+    box-shadow: 1px 1px 2px var(--shadows-color);
+    margin-top: 10px;
+    height: 10px;
+}
+
+::-webkit-progress-bar
+{
+    background-color: #FFF;
+}
+
+::-webkit-progress-value
+{
+    background-color: #000;
+}
+
+.img-skills
+{
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
