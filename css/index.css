@@ -44,4 +44,10 @@ header
 a
 {
     text-decoration: none;
+    transition: opacity 150ms ease-in-out;
+}
+
+a:hover
+{
+    opacity: .5;
 }
