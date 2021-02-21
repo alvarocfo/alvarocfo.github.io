@@ -14,22 +14,32 @@
 {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 progress
 {
     -webkit-appearance: none;
-    box-shadow: 1px 1px 2px var(--shadows-color);
     margin-top: 10px;
     height: 10px;
 }
 
 ::-webkit-progress-bar
 {
-    background-color: #FFF;
+    background-color: rgb(175, 175, 175);
 }
 
 ::-webkit-progress-value
+{
+    background-color: #000;
+}
+
+::-moz-progress-bar
+{
+    background-color: rgb(175, 175, 175);
+}
+
+::-moz-progress-value
 {
     background-color: #000;
 }
@@ -39,4 +49,23 @@ progress
     height: 50px;
     width: 50px;
     margin-right: 15px;
+}
+
+h2.-skills
+{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+h2.-skills::before
+{
+    content: "";
+    display: inline-block;
+    background-color: black;
+    width: 5px;
+    height: 23px;
+    border-radius: 5%;
+    margin-right: 5px;
 }
