@@ -32,3 +32,10 @@
     height: 30px;
     margin-right: 10px;
 }
+
+.artworks
+{
+    border-radius: 1%;
+    width: 260px;
+    height: 260px;
+}
