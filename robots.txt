@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /css/
+
+Sitemap: https://alvarocfo.github.io/sitemap.xml
+
+# Allow crawlers to index both CV versions
+# Priority: index.html (ATS) is main entry

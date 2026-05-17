@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    background: url('https://cdnb.artstation.com/p/assets/images/images/056/599/507/large/alvaro-ferreira-desert-oasis.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #1e2a3a;
+    line-height: 1.5;
+    padding: 2rem 1rem;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+     background: rgba(255, 255, 255, 0.95);
+    border-radius: 28px;
+    box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+/* ========== HEADER ========== */
+.header {
+    background: linear-gradient(135deg, rgba(11, 43, 59, 0.8) 0%, rgba(26, 74, 95, 0.9) 100%);
+    backdrop-filter: blur(8px);
+    color: white;
+    padding: 2rem 2rem 1.8rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 0.3rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    opacity: 0.95;
+    font-weight: 400;
+    border-left: 3px solid #7ab3c8;
+    padding-left: 1rem;
+    margin: 0.5rem 0 1rem 0;
+}
+
+/* Contact Bar */
+.contact-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    background: rgba(0, 0, 0, 0.219);
+    backdrop-filter: blur(2px);
+    padding: 0.8rem 1rem;
+    border-radius: 48px;
+}
+
+.contact-bar a, .contact-bar span {
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-bar i {
+    width: 1.2rem;
+    font-size: 1rem;
+}
+
+.contact-bar a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/* ========== MAIN CONTENT ========== */
+.main-content {
+    padding: 2rem 2rem 2.5rem;
+}
+
+.section {
+    margin-bottom: 2.2rem;
+}
+
+.section-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #0b2b3b;
+    border-bottom: 3px solid #7ab3c8;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.2rem;
+    display: inline-block;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.skill-category {
+    background: rgba(248, 250, 252, 0.8);
+    backdrop-filter: blur(2px);
+    padding: 0.9rem 1.2rem;
+    border-radius: 20px;
+    border: 1px solid rgba(226, 237, 242, 0.6);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.skill-category:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: rgba(248, 250, 252, 0.95);
+}
+
+.skill-category h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1a4a5f;
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.skill-category ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skill-category li {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.2rem 0.8rem;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #1e2a3a;
+    border: 1px solid #cbdde6;
+}
+
+/* Experience Items */
+.exp-item {
+    margin-bottom: 1.2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgba(243, 233, 233, 0.8);
+}
+
+.exp-item:last-child {
+    border-bottom: none;
+}
+
+.exp-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #0f3b4a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.exp-company {
+    font-weight: 600;
+}
+
+.exp-date {
+    font-size: 0.8rem;
+    font-weight: normal;
+    background: rgba(238, 243, 247, 0.8);
+    padding: 0.2rem 0.6rem;
+    border-radius: 30px;
+    color: #1a5a6e;
+}
+
+.exp-location {
+    font-size: 0.8rem;
+    color: #5f7f8c;
+    margin-top: 0.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+/* Experience Description */
+.exp-description {
+    margin-top: 0.6rem;
+    margin-left: 1.2rem;
+    margin-bottom: 0.2rem;
+    padding-left: 0.5rem;
+}
+
+.exp-description li {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-bottom: 0.4rem;
+    color: #2c4b5e;
+}
+
+.exp-description li::marker {
+    color: #7ab3c8;
+}
+
+/* Languages */
+.languages-list {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    background: rgba(248, 250, 252, 0.8);
+    backdrop-filter: blur(2px);
+    padding: 1rem 1.4rem;
+    border-radius: 28px;
+}
+
+.lang-item {
+    font-weight: 500;
+}
+
+.lang-level {
+    font-weight: normal;
+    color: #3b6e84;
+    font-size: 0.85rem;
+}
+
+/* Divider */
+hr {
+    margin: 1.2rem 0;
+    border: none;
+    border-top: 1px solid rgba(205, 227, 236, 0.8);
+}
+
+.footer-note {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #7f9aab;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 650px) {
+    .main-content {
+        padding: 1.5rem;
+    }
+    
+    .header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .contact-bar {
+        gap: 0.8rem;
+        font-size: 0.75rem;
+    }
+    
+    .exp-title {
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+    
+    .section-title {
+        font-size: 1.3rem;
+    }
+}
