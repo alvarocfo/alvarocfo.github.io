@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álvaro Ferreira - Artista 3D</title>
+    <style>
+        /* Estilos base para legibilidade - mantidos do original */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+            color: #222;
+            background: #f9f9f9;
+        }
+        h1, h2, h3 {
+            font-weight: 500;
+            margin-top: 1.5rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.3rem;
+        }
+        h1 {
+            font-size: 2.2rem;
+            border-bottom: 2px solid #333;
+        }
+        .contact-info {
+            background: #eaeaea;
+            padding: 0.8rem 1.2rem;
+            border-radius: 8px;
+            margin-bottom: 1.8rem;
+        }
+        .contact-info a {
+            color: #0055aa;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.3rem;
+        }
+        .job, .education-item, .freelance-item {
+            margin-bottom: 1.2rem;
+        }
+        .job-title, .freelance-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        .company, .institution {
+            font-weight: 500;
+            color: #1a1a1a;
+        }
+        .date-location {
+            color: #555;
+            font-size: 0.9rem;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.2rem 1rem;
+            margin-top: 0.5rem;
+        }
+        .skills-grid ul {
+            margin: 0;
+            list-style-type: disc;
+        }
+        .skills-grid li {
+            margin-bottom: 0.1rem;
+        }
+        .section {
+            margin-top: 2rem;
+        }
+        .badge {
+            background: #333;
+            color: white;
+            font-size: 0.7rem;
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            display: inline-block;
+            margin-left: 0.5rem;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 2rem 0;
+        }
+        @media (max-width: 600px) {
+            .skills-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Álvaro Ferreira</h1>
+    <p><strong>Artista 3D</strong></p>
+
+    <div class="contact-info">
+        <p>
+            <strong>Contato:</strong><br>
+            <a href="mailto:alvuso@gmail.com">alvuso@gmail.com</a><br>
+            +55 31 97579-1040<br>
+        </p>
+    </div>
+
+    <!-- ================= HABILIDADES TÉCNICAS ================= -->
+    <div class="section">
+        <h2>Habilidades Técnicas</h2>
+        <div class="skills-grid">
+            <div>
+                <strong>Modelagem 3D</strong>
+                <ul>
+                    <li>Blender</li>
+                    <li>ZBrush</li>
+                    <li>Maya</li>
+                    <li>Speedtree</li>
+                </ul>
+            </div>
+            <div>
+                <strong>Texturização</strong>
+                <ul>
+                    <li>Substance Painter</li>
+                    <li>Substance Designer</li>
+                </ul>
+            </div>
+            <div>
+                <strong>Game Engines</strong>
+                <ul>
+                    <li>Unity</li>
+                    <li>Unreal</li>
+                </ul>
+            </div>
+            <div>
+                <strong>Manipulação de Imagens</strong>
+                <ul>
+                    <li>Photoshop</li>
+                    <li>Gimp</li>
+                </ul>
+            </div>
+            <div>
+                <strong>Renderização</strong>
+                <ul>
+                    <li>Blender Eevee</li>
+                    <li>Blender Cycles</li>
+                    <li>Marmoset</li>
+                    <li>V-Ray</li>
+                </ul>
+            </div>
+            <div>
+                <strong>Programação</strong>
+                <ul>
+                    <li>C#</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= FORMAÇÃO ================= -->
+    <div class="section">
+        <h2>Formação Acadêmica</h2>
+        <div class="education-item">
+            <div class="institution">PUC Minas - Pontifícia Universidade Católica de Minas Gerais</div>
+            <div><strong>Tecnólogo em Jogos Digitais</strong></div>
+            <div class="date-location">2016 – 2020 | Belo Horizonte - MG, Brasil</div>
+        </div>
+    </div>
+
+    <!-- ================= EXPERIÊNCIA PROFISSIONAL ================= -->
+    <div class="section">
+        <h2>Experiência Profissional</h2>
+
+        <div class="job">
+            <div class="job-title">Artista 3D</div>
+            <div class="company">Big Moxi Games</div>
+            <div class="date-location">2023 – 2025 | Remoto</div>
+            <ul>
+                <li>Criação e otimização de assets 3D low-poly e high-poly para jogos com estilo estilizado.</li>
+                <li>Criação de assets 3D high-poly para jogos ultra realistas utilizando Nanite.</li>
+                <li>Criação de peças modulares de construções 3D high-poly para jogos ultra realistas utilizando Nanite.</li>
+                <li>Implementação de assets no Unreal, garantindo iluminação, configuração de shaders, detecção de colisão e otimização de performance.</li>
+                <li>Colaboração com a equipe de arte para manter a consistência visual em múltiplos projetos.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-title">Artista de Ambiente 3D</div>
+            <div class="company">Take4 Games</div>
+            <div class="date-location">2022 – 2022 | Remoto</div>
+            <ul>
+                <li>Criação e otimização de assets 3D low-poly e high-poly para jogos mobile.</li>
+                <li>Auxílio à equipe de marketing com materiais promocionais e assets visuais.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-title">Artista de Ambiente</div>
+            <div class="company">Triplano</div>
+            <div class="date-location">2021 – 2022 | Remoto</div>
+            <ul>
+                <li>Criação e otimização de assets 3D low-poly e high-poly para jogos mobile.</li>
+                <li>Desenvolvimento de texturas procedurais com Substance Designer para ambientes e props.</li>
+                <li>Implementação de assets no Unreal e Unity, garantindo iluminação, shaders, colisão e performance.</li>
+                <li>Mentoria de artistas iniciantes em fluxos de trabalho no Blender e técnicas de baking de texturas.</li>
+                <li>Colaboração com a equipe de arte para manter consistência visual em múltiplos projetos.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-title">Generalista 3D</div>
+            <div class="company">Gaz Games</div>
+            <div class="date-location">2019 – 2021 | Belo Horizonte - MG, Brasil</div>
+            <ul>
+                <li>Criação e otimização de assets 3D low-poly e high-poly para aplicações VR e AR.</li>
+                <li>Otimização de projetos para VR e AR, reduzindo draw calls em 25%.</li>
+                <li>Implementação de assets no Unity, com foco em iluminação, shaders e performance.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-title">Generalista 3D</div>
+            <div class="company">MUP Studios</div>
+            <div class="date-location">2018 – 2019 | Belo Horizonte - MG, Brasil</div>
+            <ul>
+                <li>Criação e otimização de assets 3D low-poly e high-poly para jogos mobile e aplicações VR.</li>
+                <li>Implementação de assets no Unity, garantindo iluminação, shaders e performance.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ================= EXPERIÊNCIA FREELANCE ================= -->
+    <div class="section">
+        <h2>Experiência Freelance</h2>
+
+        <div class="freelance-item">
+            <div class="freelance-title">Artista 3D</div>
+            <div class="company">Betagames Group (171)</div>
+            <div class="date-location">2023 – 2026 | Remoto</div>
+            <ul>
+                <li>Ambientação (setdressing) de casas, prédios e armazéns no Unreal Engine.</li>
+                <li>Criação e otimização de assets 3D low-poly e high-poly.</li>
+                <li>Criação e otimização de construções.</li>
+                <li>Criação e otimização de vegetação utilizando SpeedTree.</li>
+            </ul>
+        </div>
+
+        <div class="freelance-item">
+            <div class="freelance-title">Artista 3D - Foco em Visualização Arquitetônica</div>
+            <div class="company">Casa do Sol</div>
+            <div class="date-location">2023 – 2024 | Remoto</div>
+            <ul>
+                <li>Criação de renders baseados em especificações do cliente, plantas baixas e imagens de referência para visualização de edifícios comerciais.</li>
+            </ul>
+        </div>
+
+        <div class="freelance-item">
+            <div class="freelance-title">Artista 3D</div>
+            <div class="company">Protodroid DeLTA</div>
+            <div class="date-location">2022 – 2022 | Remoto</div>
+            <ul>
+                <li>Criação e implementação de assets de personagens principais no Unreal Engine.</li>
+                <li>Otimização de assets existentes para performance no Unreal Engine.</li>
+            </ul>
+        </div>
+
+        <div class="freelance-item">
+            <div class="freelance-title">Generalista 3D - Foco em Renders para Marketing</div>
+            <div class="company">Astro Hounds</div>
+            <div class="date-location">2022 – 2022 | Remoto</div>
+            <ul>
+                <li>Criação de materiais promocionais e assets visuais para a equipe de marketing.</li>
+            </ul>
+        </div>
+
+        <div class="freelance-item">
+            <div class="freelance-title">Artista de Ambiente</div>
+            <div class="company">Ghost Jack</div>
+            <div class="date-location">2019 – 2019 | Belo Horizonte - MG, Brasil</div>
+            <ul>
+                <li>Criação de assets 3D para animação no Blender.</li>
+                <li>Auxílio com texturização e iluminação.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ================= EDITAIS ================= -->
+    <div class="section">
+        <h2>Editais</h2>
+
+        <div class="job">
+            <div class="job-title">Generalista 3D</div>
+            <div class="company">Lei Paulo Gustavo</div>
+            <div class="date-location">2024</div>
+            <ul>
+                <li>Criação e otimização de assets 3D low-poly e high-poly para jogos com estilo estilizado.</li>
+                <li>Criação de shaders gráficos para ambientar e otimizar o jogo.</li>
+                <li>Implementação de assets na Unity, garantindo iluminação, configuração de shaders, detecção de colisão e otimização de performance.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ================= IDIOMAS ================= -->
+    <div class="section">
+        <h2>Idiomas</h2>
+        <ul>
+            <li><strong>Português</strong> – Nativo</li>
+            <li><strong>Inglês</strong> – Proficiência profissional</li>
+        </ul>
+    </div>
+
+    <hr>
+    <p style="font-size: 0.85rem; color: #555; text-align: center;">
+        Versão em português do portfólio de Álvaro Ferreira - Artista 3D.
+    </p>
+
+</body>
+</html>
